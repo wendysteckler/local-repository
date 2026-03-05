@@ -1,0 +1,66 @@
+
+/*use asterisk to add comments */
+
+/*html {
+  font-size: 50%; This makes 1rem equal to the browser's default, e.g., 16px 
+}*/
+
+/* upper-name is relative to the top line of my header (smaller navigation items, cart and shopping bag) for interior pages*/
+.upper-nav {
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8rem;
+    flex-wrap: nowrap;
+    list-style-type:none;
+   
+    margin-left:20%; /* top, right, bottom, left */ 
+    display: flex; /* Enables the flexbox layout model */
+    justify-content: space-between; /* Distributes space evenly between items left-right is default axis*/
+    align-items:end; /*alignment on the cross axis*/
+    width: 80%;
+    padding: 0px; /* top, right, bottom, left */
+}
+.upper-nav li {float: right;}
+.upper-nav li a{
+    display:block;
+    color: #EEEEEE;
+    text-align: right;
+    /*padding: 10px 10px;*/
+    text-decoration: none;
+}
+
+/*main-nav is relative to the standard page to page links in the header on all interior pages */
+
+.main-nav {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.0rem;
+    flex-wrap: nowrap;
+    list-style-type:none;
+    padding: 0;
+    display: flex; /* Enables the flexbox layout model */
+      width: 100%;
+}
+.main-nav li {float: right;}
+.main-nav li a{
+    display:block;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 0rem 0rem 0rem 1.5rem; /* top, right, bottom, left */ 
+    text-decoration: none;
+
+}
+
+/*footer is relative to the footer for use on all interior pages */
+
+footer {
+    position: fixed; /* Fix the footer to the bottom of the screen */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Make the footer span the full width of the screen */
+    
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 0.6rem 0; /* Some padding top and bottom */
+    font-size: 0.8rem; /* Smaller font size for footer info */
+}
+
