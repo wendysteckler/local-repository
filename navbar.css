@@ -1,0 +1,423 @@
+/*--------Home-------------*/
+
+.Page1Background{
+  background-color: #993333 !important;
+  color: #ffffff !important;
+}
+ 
+.Page1Border{
+  border-color: #993333 !important;
+}
+
+.Page1NavButtons{
+background-color: #ffffff !important; /* Your custom background color */
+  color: #993333 !important; 
+ border-color: #993333 !important;   
+}
+
+.Page1LongTextButtons{
+background-color: #ffffff !important; /* Your custom background color */
+  color: #993333 !important; 
+ border-color: #993333 !important;   
+ text-align:center;
+ text-wrap:nowrap;
+ font-size:75%;
+
+}
+
+.Page1Text{
+      background-color: #ffffff95 !important;
+      color: #993333  !important;
+    }
+
+.Page1Menu{
+      
+      color: #993333  !important;
+    }
+
+.Page1MenuButtons{
+background-color: #ffffff!important; /* Your custom background color */
+  color: #196F6F !important; 
+ --bs-navbar-toggler-border-color: #196F6F !important;
+}
+
+
+/*computers*/
+ @media (min-width: 991px) {
+.navbar-toggler-icon
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28153,51,51, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    z-index: 15000;
+}
+.navbar-toggler {
+  
+  border-color:  #993333 !important;  
+  color: #ffffff !important;
+}
+
+}
+ 
+/*phones*/
+ @media (max-width: 991px) {
+.navbar-toggler-icon
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255,255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+ }
+    .homepage .body {
+  background-image: url('/images/isabella-stewart-gardner-museum-visit-Boston-bijuleni3.jpg');
+  background-size: cover;
+
+
+}
+
+  @media (min-width: 991px) {
+  .homepage .navbar-collapse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 150px; /* Space for brand/close button */
+    height: 60vh;
+    width: 100vw;
+   background-color: #ffffffe6 !important; /* Your custom background color */
+   color: #993333 !important; 
+   
+  }
+}
+
+
+
+
+/*--------Explore-------------*/
+
+.Page2Background{
+  background-color: #39432F !important;
+  color: #fff !important;
+}
+
+.Page2Border{
+  border-color: #39432F !important;
+}
+
+.Page2NavButtons{
+background-color: #fff !important; /* Your custom background color */
+  color: #39432F !important; 
+ border-color: #39432F !important;   
+}
+
+.Page2Text{
+      background-color: #fff !important;
+      color: #39432F  !important;
+    }
+
+/*---------Plan your visit------------*/
+
+.Page3Background{
+  background-color: #38639c !important;
+  color: #fff !important;
+}
+
+.Page3Border{
+  border-color: #38639c !important;
+}
+
+.Page3NavButtons{
+background-color: #fff !important; /* Your custom background color */
+  color: #38639c !important; 
+ border-color: #38639c !important;   
+}
+
+.Page3Text{
+      background-color: #fff !important;
+      color: #38639c !important;
+    }
+
+.Page3FilledButtons{
+background-color: #38639c !important; /* Your custom background color */
+  color: #fff !important; 
+ border-color: #38639c !important;   
+ width: 11rem;
+ text-wrap: nowrap ;
+ text-align:center;
+ padding-left:.25rem;
+ padding-right:.25rem;
+}
+
+.Page3FilledSmButtons{
+background-color: #38639c !important; /* Your custom background color */
+  color: #fff !important; 
+ border-color: #38639c !important;   
+ width: 6rem;
+ text-wrap: nowrap ;
+ text-align:center;
+ padding-left:.25rem;
+ padding-right:.25rem;
+}
+
+
+/*---------Join and Give------------*/
+
+.Page4Background{
+  background-color: #392F43 !important;
+  color: #fff !important;
+}
+
+.Page4Border{
+  border-color: #392F43 !important;
+}
+
+.Page4NavButtons{
+background-color: #fff !important; /* Your custom background color */
+  color: #392F43 !important; 
+ border-color: #392F43 !important;   
+}
+
+.Page4LongTextButtons{
+background-color: #fff !important; /* Your custom background color */
+  color: #392F43 !important; 
+ border-color: #392F43 !important;   
+ width:28rem;
+ height:12rem;
+}
+
+
+
+
+
+.Page4NavSmButtons{
+background-color: #fff !important; /* Your custom background color */
+  color: #392F43 !important; 
+ border-color: #392F43 !important;   
+ width: 6rem;
+ height: 3rem;
+ 
+ text-align:center;
+ padding-left:.25rem;
+ padding-right:.25rem;
+ padding-top:.25rem;
+ padding-bottom:.25rem;
+}
+
+.Page4Text{
+      background-color: #fff !important;
+      color: #392F43 !important;
+    }
+
+.Page4FilledButtons{
+background-color: #392F43 !important; /* Your custom background color */
+  color: #fff !important; 
+ border-color: #392F43 !important;   
+ width: 11rem;
+ text-wrap: nowrap ;
+ text-align:center;
+ padding-left:.25rem;
+ padding-right:.25rem;
+}
+
+.Page4FilledSmButtons{
+background-color: #392F43 !important; /* Your custom background color */
+  color: #fff !important; 
+ border-color: #392F43 !important;   
+ width: 6rem;
+ text-wrap: nowrap ;
+ text-align:center;
+ padding-left:.25rem;
+ padding-right:.25rem;
+}
+
+
+
+
+
+
+
+
+
+/*---------Private Events------------*/
+
+.Page5Background{
+  background-color: #196F6F !important;
+  color: #fff !important;
+}
+
+.Page5Border{
+  border-color: #196F6F !important;
+}
+
+.Page5NavButtons{
+background-color: #fff !important; /* Your custom background color */
+  color: #196F6F !important; 
+ border-color: #196F6F !important;   
+}
+
+.Page5Text{
+      background-color: #fff !important;
+      color: #196F6F !important;
+    }
+
+.Page5FilledButtons{
+background-color: #196F6F !important; /* Your custom background color */
+  color: #fff !important; 
+ border-color: #196F6F !important;   
+}
+
+table {
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th {
+  cursor: pointer;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+
+
+
+
+
+
+
+
+/*----------Meet Isabella-----------*/
+
+.Page6Background{
+  background-color: #8D5C38 !important;
+  color: #fff !important;
+}
+
+.Page6Border{
+  border-color: #8D5C38 !important;
+}
+
+.Page6NavButtons{
+background-color: #fff !important; /* Your custom background color */
+  color: #8D5C38 !important; 
+ border-color: #8D5C38 !important;   
+}
+
+.Page6Text{
+      background-color: #fff !important;
+      color: #8D5C38 !important;
+    }
+
+/*----------Navigation Header and Footer-----------*/
+
+
+.nav-upper {
+  text-decoration: none;
+  color: #fff !important;
+  font-size: .8rem;
+}
+
+.btn-custom-color-xlarge {
+  background-image:none;
+  border-style: solid !important; 
+  border-width: .1rem !important;
+  border-color: #ffff !important;  
+  border-style: solid;   /* Your custom border color */
+  --bs-btn-padding-y: .20rem; 
+  --bs-btn-padding-x: 0.8rem; 
+  --bs-btn-font-size: 1.20rem;
+} 
+
+.btn-custom-color-large {
+  background-image:none;
+ 
+  border-style: solid !important; 
+  border-width: .2rem !important;
+ 
+  border-style: solid;   /* Your custom border color */
+  --bs-btn-padding-y: .15rem; 
+  --bs-btn-padding-x: .5rem; 
+  --bs-btn-font-size: .75rem;
+} 
+
+.btn-custom-color-small {
+  background-image:none;
+      /* Text color for contrast */
+  border-style: solid !important; 
+  border-width: .2rem !important;
+ 
+  border-style: solid;   /* Your custom border color */
+  --bs-btn-padding-y: .05rem; 
+  --bs-btn-padding-x: .35rem; 
+  --bs-btn-font-size: .50rem;
+} 
+
+.navbar-collapse {
+    clear: both;
+    width: 50%;
+   
+}
+
+.sizeimage { max-width: 150%; min-width:148px; max-height:100px; height:auto}
+
+.sizeicons { max-width: 30%; max-height:30px}
+.sizeiconssmall { max-width: 20%; max-height:20px}
+
+.copyright { font-size:.55rem}
+.footertext {font-size:.8rem}
+
+@media (min-width: 600px) {
+  body {padding-top: 150px; /* Adjust the value based on your navbar's actual height */
+        padding-bottom:100px;}
+      }
+@media (max-width: 600px) {
+  body {padding-top: 90px; /* Adjust the value based on your navbar's actual height */
+        padding-bottom:90px;
+  }
+      }
+
+body,h1,h2,h3,h4,h5,h6 {font-family: Marcellus;}
+
+
+/*------------------carousel sizing ---------------*/
+
+
+
+@media (min-width: 600px) {
+.rollingimages {
+height:800px;
+max-width: 1800px;
+margin-bottom:50px;
+}
+}
+
+@media (max-width: 600px) {
+.rollingimages {
+height:320px;
+max-width: 1000px;
+margin-bottom:20px;
+}
+}
+
+/* this is how you can add stylings to wrapper FOR LIGHTBOX, f.e. */
+.lightbox-carousel.carousel {
+  padding: .5rem;
+
+  /*background: #ffffff7a;*/
+}
+
+.modal-backdrop
+{
+    opacity:0.8 !important;
+}
+
+/*--------------button sizing ----------------------
+@media (min-width: 600px) { 
+    .btn-custom { 
+    font-size: 0.8rem; 
+    } 
+  
+  }*/
