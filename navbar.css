@@ -1,3 +1,6 @@
+
+ html { font-size: 16px; }
+
 /*--------Home-------------*/
 
 .Page1Background{
@@ -28,18 +31,18 @@ background-color: #ffffff !important; /* Your custom background color */
 .Page1Text{
       background-color: #ffffff95 !important;
       color: #993333  !important;
-    }
+         }
 
 .Page1Menu{
       
       color: #993333  !important;
-    }
+          }
 
 .Page1MenuButtons{
 background-color: #ffffff!important; /* Your custom background color */
   color: #196F6F !important; 
  --bs-navbar-toggler-border-color: #196F6F !important;
-}
+              }
 
 
 /*computers*/
@@ -55,7 +58,7 @@ background-color: #ffffff!important; /* Your custom background color */
   color: #ffffff !important;
 }
 
-}
+          }
  
 /*phones*/
  @media (max-width: 991px) {
@@ -64,13 +67,14 @@ background-color: #ffffff!important; /* Your custom background color */
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255,255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 
 }
- }
-    .homepage .body {
-  background-image: url('./images/isabella-stewart-gardner-museum-visit-Boston-bijuleni3.jpg');
+          }
+
+
+ .homepage .body {
+  background-image:url("./images/isabella-stewart-gardner-museum-visit-Boston-bijuleni3.jpg");
   background-size: cover;
 
-
-}
+      }
 
   @media (min-width: 991px) {
   .homepage .navbar-collapse {
