@@ -115,6 +115,42 @@ background-color: #fff !important; /* Your custom background color */
       color: #39432F  !important;
     }
 
+
+@media (min-width: 600px) {
+  
+.rollingimages { max-height:500px; width: 490px;}
+/*
+.carousel-item {
+  height: 70vh;
+} */
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover; /* Maintains aspect ratio while filling height */
+}
+}
+
+@media (max-width: 600px) {
+
+.rollingimages { max-height:200px; width: 215px;}
+/*
+.carousel-item {
+  height: 70vh;
+} */
+.carousel-item img {
+  max-height: 200px;
+  /* object-fit: cover;  Maintains aspect ratio while filling height */
+      }
+
+    }
+
+
+
+
+
+
+
+
+
 /*---------Plan your visit------------*/
 
 .Page3Background{
